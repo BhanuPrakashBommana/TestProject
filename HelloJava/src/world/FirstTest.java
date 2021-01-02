@@ -54,7 +54,7 @@ public class FirstTest {
 	  
 	  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	  
-	  driver.findElement(By.xpath("//*[@name='passwor]")).sendKeys("bhanu@bbi_mca123");
+	  driver.findElement(By.xpath("//*[@name='password']")).sendKeys("bhanu@bbi_mca123");
 	  
 	  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	  
